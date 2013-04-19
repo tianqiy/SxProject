@@ -1,0 +1,91 @@
+/* 
+    Document   : Undecorator
+    Created on : Jan 15, 2013, 8:42:25 AM
+    Author     : In-SideFX
+    Description:
+        Demo purpose
+*/
+
+/*
+    The Stage background.
+    Currently a Rectangle node
+*/
+
+.undecorator-background {
+    -fx-fill:white;
+}
+
+/*
+*	Menu button
+*/
+.decoration-button-menu{
+    -fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("asset/menu.png");
+}
+
+.decoration-button-menu:hover{
+    -fx-background-color: null;
+    -fx-background-image:url("asset/menu-hover.png");
+}
+/*
+*	Minmize button
+*/
+.decoration-button-minimize{
+    -fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("asset/minimize.png");
+}
+
+.decoration-button-minimize:hover{
+    -fx-background-color: null;
+    -fx-background-image:url("asset/minimize-hover.png");
+}
+/*
+*	Maximize button
+*/
+.decoration-button-maximize{
+    -fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("asset/maximize.png");
+}
+.decoration-button-maximize:hover{
+    -fx-background-color: null;
+    -fx-background-image:url("asset/maximize-hover.png");
+}
+.decoration-button-restore{
+    -fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("asset/restore.png");
+}
+.decoration-button-restore:hover{
+    -fx-background-color: null;
+    -fx-background-image:url("asset/restore-hover.png");
+}
+/*
+*	Close button
+*/
+.decoration-button-close{
+    -fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("asset/close.png");
+}
+.decoration-button-close:hover{
+    -fx-background-color: null;
+    -fx-background-image:url("asset/close-hover.png");
+}
+
+/*
+*	Resize button
+*/
+.decoration-button-resize{
+    -fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("asset/resizeSE.png");
+}
